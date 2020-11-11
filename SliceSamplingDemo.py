@@ -1,6 +1,8 @@
 ###########################
-### Slide Sampling Demo ###
+### Slice Sampling Demo ###
 ###########################
+
+# Slice sampling applied to Standard Normal, the special case of Gaussian distribution
 
 import numpy as np
 import scipy.stats as st
@@ -9,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 sns.set()
-mu = 65
+mu = 65 # mu in Gaussian is used to shift the center of the distribution
 sigma = 32
 
 

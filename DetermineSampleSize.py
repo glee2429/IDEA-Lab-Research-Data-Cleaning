@@ -1,7 +1,3 @@
-#Script from http://veekaybee.github.io/how-big-of-a-sample-size-do-you-need/ on how to calculate sample size, adjusted for my own population size
-#and confidence intervals
-#Original here: http://bc-forensics.com/?p=15
-
 import math
 
 # SUPPORTED CONFIDENCE LEVELS: 50%, 68%, 90%, 95%, and 99%
@@ -45,3 +41,8 @@ def main():
 
 if __name__ == "__main__":
   main()
+
+
+#Script from http://veekaybee.github.io/how-big-of-a-sample-size-do-you-need/ on how to calculate sample size, adjusted for my own population size
+#and confidence intervals
+#Original here: http://bc-forensics.com/?p=15
